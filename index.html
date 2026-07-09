@@ -1139,5 +1139,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C82P1:END-->
+<!--WY-C82P2:BEGIN-->
+<style id="wy-c82p2-css">
+.c82p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c82p2-fabbox.show{display:block;}
+.c82p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c82p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c82p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c82p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c82p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c82p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c82p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c82p2-modal.open{display:flex;}
+.c82p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c82p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c82p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c82p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c82p2-close:hover{background:#e3d5b8;}
+.c82p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c82p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c82p2-tbl th,.c82p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c82p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c82p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c82p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c82p2-tbl b{color:#8b2500;}
+.c82p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c82p2-note b{color:#8b2500;}
+@media(max-width:900px){.c82p2-fabbox{right:14px;}.c82p2-tbl{font-size:11.5px;}.c82p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c82p2-fabbox" id="c82p2Box"><button class="c82p2-btn" id="c82p2Btn" type="button" aria-label="開啟全景總表"><span class="c82p2-ic">▦</span><span class="c82p2-ls"><span class="c82p2-l1">本品 · 深心般若</span><span class="c82p2-l2">深心為因・般若為眼・大悲為用</span></span></button></div><div class="c82p2-modal" id="c82p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c82p2-card"><button class="c82p2-close" id="c82p2Close" type="button" aria-label="關閉">×</button><h3>卷八十二・第一品 中觀架構 全景總表</h3><p class="sub">卷八十二・第一品｜三問三答深心動力・四大譬喻般若心法・破申立三段辯證・總持圖譜</p><table class="c82p2-tbl"><caption>一、研究視角與三問三答總覽</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>本品三大支柱</td><td>深心為因——絕對菩提動機是跨越世俗與出世間的閾值；般若為眼——前五度本身是盲的，唯般若破著功能令善法升維為波羅蜜；大悲為用——空性的冷峻解構終究是為了成就菩薩溫熱的利生大悲</td></tr><tr><td>三問三答時空尺度</td><td>第一問幾時能得——答無量億阿僧祇劫；第二問供養幾佛——答如恒河沙等諸佛；第三問種何善根——答於六波羅蜜無不具足，三問既盡佛陀更開示前五度若無般若導航皆不得名波羅蜜</td></tr><tr><td>二諦棱鏡</td><td>世俗諦（緣起）是方便門戶，為鈍根眾生設立五度以對治煩惱；勝義諦（畢竟空）是般若破著，消解對善法與功德的自性執著；中道義（悲智雙運）是圓融無礙，空性前導方便俱隨，萬流匯入薩婆若大海</td></tr><tr><td>深心與久發心之辨</td><td>有菩薩久發心多以華香供養諸佛卻未能種善根，因動機是冀求果報；種真善根者以深心行六波羅蜜，為阿耨多羅三藐三菩提故作功德，決定性因素不在時間長短而在深心</td></tr><tr><td>後來心之希有</td><td>無始生死已來集諸惡法，菩薩心後來，而能用後來心，不隨先所集惡心，是以新心覆舊習的反熵機制，舊業如濁流奔湧，後來心如金箭逆截</td></tr><tr><td>大悲反脆弱性</td><td>一切眾生無恩於菩薩，甚至欲奪菩薩命割截身體，菩薩反欲以第一佛樂智慧命與眾生，外在的物理傷害被轉化為給予眾生法身慧命的絕對悲心，傷害愈深悲心愈顯</td></tr></tbody></table><table class="c82p2-tbl"><caption>二、般若核心心法・四大譬喻系統</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>邏輯轉折</td><td>布施持戒忍辱精進禪定若無般若波羅蜜介入，皆不得名波羅蜜，前五度如盲，般若如明，善法本身不具超越性，唯智慧方能賦予善法解脫的維度</td></tr><tr><td>譬喻一日月之明</td><td>眾生雖有眼若無日月則無所見，眾生雖有世俗善根利智，不得般若波羅蜜照明，尚不得二乘何況阿耨多羅三藐三菩提，般若是讓視力產生意義的光源</td></tr><tr><td>譬喻二無夫之婦</td><td>若菩薩乃至能自以身命布施，若無般若，其心易破，如無夫之婦侵凌則易；帶有自我執著的善行本質脆弱，一旦遭遇外境挫折善法系統便會崩潰</td></tr><tr><td>譬喻三健將器仗</td><td>健將即是菩薩，器仗即是般若波羅蜜，面對增上慢者外道梵志諸魔民乃至菩薩旃陀羅，唯有手持畢竟空法的器仗方能不可破壞</td></tr><tr><td>譬喻四轉輪金輪寶</td><td>菩薩雖有布施等諸善法，不得般若波羅蜜故，不名為行六波羅蜜人，不能除障礙行菩薩道；般若是系統的認證器，賦予世俗善行波羅蜜的合法性</td></tr><tr><td>譬喻五眾流歸海</td><td>布施等諸善法為般若波羅蜜所守護故，得至薩婆若，如諸小王朝宗轉輪聖王，如一切眾流皆入大海，五度趣向般若如萬流歸宗</td></tr></tbody></table><table class="c82p2-tbl"><caption>三、破申立三段辯證與總持圖譜</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>申・世俗諦</td><td>鈍根罪重，不能直入實相，故設立具體對治法作為入般若初門：布施破慳、持戒折薄煩惱、忍辱開福德門、精進如風吹火熾然不息、禪定攝心觀諸法實相</td></tr><tr><td>破・勝義諦</td><td>菩薩說畢竟空法，五度雖有對治之功，若執著其有實體自性即落增上慢，般若波羅蜜為核心動力貫穿五度之軸，照見五度無自性</td></tr><tr><td>立・中道義</td><td>以有空義故一切法得成，中觀並非虛無主義，正因證入空性，五度才真正從世俗有為法躍昇為能渡彼岸的波羅蜜，悲智雙運導行而不廢行</td></tr><tr><td>譬喻映射矩陣</td><td>日月與眼對應勝義諦的照明（不達二乘）、無夫之婦對應缺乏空性防禦（易被侵凌）、健將器仗對應破著心的武裝（降伏增上慢與魔民）、轉輪王與輪寶對應世俗與勝義的統攝（受限有為法）、眾流與大海對應萬法歸於實相（孤立善法終歸枯竭）</td></tr><tr><td>範式轉移三段等式</td><td>善法加深心等於種善根，是世俗諦的極致；善根加般若破著等於波羅蜜，是勝義諦的介入；波羅蜜加大悲方便等於阿耨多羅三藐三菩提，是中道義的圓滿，修行需要動機升級與認知維度升級的雙重質變</td></tr><tr><td>結語常欲利益</td><td>無始生死已來集諸惡法，菩薩心後來，而能用後來心，不隨先所集惡心，是為希有；般若的冷峻解構最終是為了成就菩薩絕對溫熱的深心，以深心為因、般若為眼、大悲為用</td></tr></tbody></table><p class="c82p2-note">本品以三問三答錨定方便力的時空尺度，證成深心而非時間長短方是跨越世俗與出世間的閾值；復以日月、無夫之婦、健將器仗、金輪寶、眾流歸海五喻，層層論證前五度若無般若照明、防禦、武裝、認證與守護，終不得波羅蜜之名。破申立三段辯證進一步將全品論證映射為中觀二諦圓融的推演：申假名、破自性、立中道，悲智雙運，導行而不廢行。全品終歸於後來心之希有——不隨無始惡心、常欲利益眾生，此即以深心為因、般若為眼、大悲為用的大方便力。</p></div></div>
+<script id="wy-c82p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c82p2Btn"),BOX=document.getElementById("c82p2Box"),MODAL=document.getElementById("c82p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVfab,.wy-vfab,#wyVideoFab,.wy-video-fab,#fabVideo,.fab-video,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c82p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C82P2:END-->
 </body>
 </html>
